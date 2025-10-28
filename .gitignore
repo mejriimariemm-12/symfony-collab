@@ -1,0 +1,61 @@
+# ====================================
+# ⚙️ IGNORER LES FICHIERS SENSIBLES
+# ====================================
+
+.env
+.env.local
+.env.dev
+.env.prod
+.env.*.local
+.env.test
+*.pem
+*.key
+*.crt
+*.p12
+*.secret
+*.token
+
+# ====================================
+# 📦 DEPENDANCES ET BUILD
+# ====================================
+
+/vendor/
+/node_modules/
+/var/
+/public/build/
+/public/uploads/
+
+# ====================================
+# 🧪 TESTS ET OUTILS
+# ====================================
+
+/coverage/
+/.phpunit.result.cache
+/phpunit.xml
+.phpunit.cache
+
+# ====================================
+# 🧠 CONFIGURATION LOCALE & IDE
+# ====================================
+
+/.idea/
+/.vscode/
+/.DS_Store
+Thumbs.db
+
+# ====================================
+# 🐳 DOCKER & COMPOSE
+# ====================================
+/docker-compose.override.yml
+/docker-compose.yml
+compose.yaml
+compose.override.yaml
+
+# ====================================
+# 🗂️ AUTRES FICHIERS TEMPORAIRES
+# ====================================
+
+*.log
+*.cache
+*.tmp
+*.bak
